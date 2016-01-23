@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453523500 source:/home/waldo/Documents/CSwatever/Stoplight/main.cpp
+	<iostream>
+	<list>
+	<vector>
+
