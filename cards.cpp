@@ -24,12 +24,12 @@ int main(void)
 {
     list<Card*> cards;
 
+    /*  Se genera una lista de cartas que
+        contendra duplicados */
     cards.push_back(new Card(0));
     cards.push_back(new Card(0));
     for(int j = 1;j<=10;j++)
     {
-        /*  Se genera una lista de cartas que
-            contendra duplicados */
         Card *temp = new Card(j);
         if(j%2 == 0)
             temp->number = 2;
