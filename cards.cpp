@@ -1,6 +1,3 @@
-#ifndef JUGADOR_H
-#define JUGADOR_H
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <list>
@@ -19,8 +16,6 @@ public:
     };
 
 };
-#endif
-
 
 void clearDupes(list<Card*>& cards);
 void isDupe(Card *c,list<Card*>& cards);
